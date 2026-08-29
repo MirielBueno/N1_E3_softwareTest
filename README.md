@@ -1,6 +1,11 @@
-# N1-E3 — Projeto-base Jest
+# N1 – E3 — Testes Unitários com Jest
 
-Projeto já configurado para Node.js + Jest.
+Atividade da disciplina de Teste de Software voltada à criação de testes
+unitários com Jest.
+
+O projeto testa as funcionalidades de carrinho, usuário, estoque, catálogo e
+pedidos. Os testes são desenvolvidos gradualmente dentro da pasta `__tests__/`,
+sem alterar os arquivos de produção em `src/`.
 
 ## Instalação
 
@@ -19,10 +24,3 @@ npm test
 ```bash
 npm run coverage
 ```
-
-## Importante
-
-- Não altere os arquivos da pasta `src/`.
-- Crie os testes dentro da pasta `__tests__/`.
-- Não envie `node_modules`.
-- Consulte o enunciado da atividade para saber quais testes devem ser implementados.
