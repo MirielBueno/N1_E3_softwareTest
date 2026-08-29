@@ -1,0 +1,14 @@
+{
+  "name": "n1-e3-jest-projeto-base",
+  "version": "1.0.0",
+  "description": "Projeto-base da atividade N1-E3 de testes unitários com Jest.",
+  "main": "src/carrinho.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  }
+}
