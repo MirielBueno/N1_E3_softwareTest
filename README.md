@@ -1,11 +1,11 @@
 # N1 – E3 — Testes Unitários com Jest
 
-Atividade da disciplina de Teste de Software voltada à criação de testes
-unitários com Jest.
+Atividade da disciplina de Teste de Software composta por 40 testes unitários
+para os módulos de carrinho, usuário, estoque, catálogo e pedidos.
 
-O projeto testa as funcionalidades de carrinho, usuário, estoque, catálogo e
-pedidos. Os testes são desenvolvidos gradualmente dentro da pasta `tests/`,
-sem alterar os arquivos de produção em `src/`.
+A suíte utiliza Jest, matchers para valores, objetos, arrays e exceções, além de
+`jest.fn()` para isolar o envio de confirmação de pedidos. Os testes estão em
+`__tests__/` e os arquivos de produção em `src/` não foram alterados.
 
 ## Instalação
 
@@ -13,7 +13,7 @@ sem alterar os arquivos de produção em `src/`.
 npm install
 ```
 
-## Executar os testes
+## Testes
 
 ```bash
 npm test

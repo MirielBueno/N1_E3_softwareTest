@@ -1,4 +1,4 @@
-const {criarUsuario,  podeComprar,  desativarUsuario} = require('../src/usuario');
+const {criarUsuario,  podeComprar,  desativarUsuario} = require('../src/usuario.js');
 
 // testes 1 - funcao criarUsuario
 // teste 1.1 - criar usuario valido
